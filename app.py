@@ -26,7 +26,7 @@ with st.form("calc_form"):
 
     ou_line = st.number_input("ราคา สูง/ต่ำ (Over/Under) ปัจจุบัน", min_value=0.0, value=5.5, step=0.25)
     
-    submit_btn = st.form_submit_with_categorical_labels = st.form_submit_button("คำนวณและวิเคราะห์ผล")
+    st.form_submit_button("คำนวณและวิเคราะห์ผล")
 
 # ส่วนที่ 3: การประมวลผลและการแสดงสถิติ
 if submit_btn:
